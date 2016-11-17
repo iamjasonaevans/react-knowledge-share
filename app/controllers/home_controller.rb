@@ -13,4 +13,7 @@ class HomeController < ApplicationController
 
   def example5
   end
+
+  def example5b
+  end
 end

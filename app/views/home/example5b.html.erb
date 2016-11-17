@@ -1,0 +1,15 @@
+<script>
+  $(document).ready(function() {
+    var $ip1 = $('#ip1')
+    var $hello_span = $('#hello_span')
+
+    $ip1.on('keypress', function(e) {
+     $hello_span.text(e.currentTarget.value) 
+    })
+  });
+</script>
+
+
+<h3>Example 5b</h3>
+<p>Hello <span id="hello_span"></span></p>
+<input type="text" id="ip1">

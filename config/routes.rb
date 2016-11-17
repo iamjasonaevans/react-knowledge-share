@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/example3' => 'home#example3'
   get '/example4' => 'home#example4'
   get '/example5' => 'home#example5'
+  get '/example5b' => 'home#example5b'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
